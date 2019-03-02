@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Bootstrap</title>
+ 
+    <!--Load CSS-->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css "href="{{url_for('static', filename='css/bootstrap-responsive.min.css')}}">
+    <style type="text/css"><!--Dibutukan bila anda menggunakan navbar fixed top-->
+        body {
+            padding-top:60px;
+            padding-bottom: 40px;
+        }
+    </style> 
+    <!--Load jQuery-->
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+</head>
+<body>
+ 
+    <!--CODING HERE-->
+
+ 
+    <div class="container">
+ 
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+      <h3>Hasil Query</h3>
+          <table class="table" id="categories,products">
+              <thead class="thead-dark">
+                {% if result %}
+                <tr>
+                  <th scope="col">id</th>
+                  <th scope="col">category_name</th>
+                  <th scope="col">products</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for row in result %}
+                    <td> {{ row.id }}</td>
+                    <td> {{ row.category_name }}</td>
+                    <td> {{ row.products }}</td>
+                    </tr>
+                {% endfor %}
+                {% endif %}
+              </tbody>
+            </table>
+        <p><a href="#" class="btn btn-primary btn-medium">Tambah Category &raquo;</a></p>
+      </div>
+
+      <hr>
+ 
+      <footer>
+        <p>&copy;Hernanda Agung</a></p>
+      </footer>
+ 
+    </div> <!-- /container -->
+    <!--Load Bootstrap JS ( Diletakan dibawah merupakan rekomendasi,agar proses load page lebih cepat )-->
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+</body>   
+</html>
