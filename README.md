@@ -1,13 +1,13 @@
 # arkademy-
 
 untuk bahasa pemrograman menggunakan python dengan versi 3.7.2  
-untuk framework menggunakan flask (koneksi flask ke mysql menggunakan library pymysql)
-untuk database menggunakan mysql server versi 8
+untuk framework menggunakan flask (koneksi flask ke mysql menggunakan library pymysql)  
+untuk database menggunakan mysql server versi 8  
 untuk bootstrap menggunakan bootstrap versi 2.3.2
 
-pengerjaan soal 1-5 menggunakan IDE notepad++
-pengerjaan soal 6 menggunakan CMD
-pengerjaan soal 7 menggunakan IDE PyCharm dengan memanfaatkan framework flask (untuk fitur Insert masih berupa tombol dan belum berfungsi)
+pengerjaan soal 1-5 menggunakan IDE notepad++  
+pengerjaan soal 6 menggunakan CMD  
+pengerjaan soal 7 menggunakan IDE PyCharm dengan memanfaatkan framework flask (untuk fitur Insert masih berupa tombol dan belum berfungsi)  
 
   cara menjalankan flask melalui IDE Pycharm
 1. buka flask
