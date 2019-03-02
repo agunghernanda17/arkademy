@@ -1,6 +1,6 @@
 # arkademy-
 
-untuk bahasa pemrograman menggunakan python dengan versi 3.7.2
+untuk bahasa pemrograman menggunakan python dengan versi 3.7.2  
 untuk framework menggunakan flask (koneksi flask ke mysql menggunakan library pymysql)
 untuk database menggunakan mysql server versi 8
 untuk bootstrap menggunakan bootstrap versi 2.3.2
