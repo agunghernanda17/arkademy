@@ -1,0 +1,2 @@
+SELECT a.id as id,a.name as category_name,GROUP_CONCAT(CONCAT(b.name)SEPARATOR ',') 
+AS products FROM categories a JOIN products b where b.category_id=a.id GROUP BY a.id,b.category_id ;
