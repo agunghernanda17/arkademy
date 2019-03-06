@@ -27,7 +27,7 @@ MySQL Server 8
 Bootstrap version 2.3.2  
 Flask Framework ( Sudah Include di PyCharm IDE )  
 library tambahan pada flask  
--pymysql
+-pymysql  
 cara install libnya adalah dengan mengetikkan 'pip install pymsql' pada terminal PyCharm IDE  
 
 Untuk menjalankan project no 7 yaitu sebagai berikut:
