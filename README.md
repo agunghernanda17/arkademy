@@ -21,14 +21,14 @@ pengerjaan soal 7 menggunakan IDE PyCharm dengan memanfaatkan framework flask
 7. selanjutnya buka browser dan ketikkan 127.0.0.1:5000 pada address bar untuk melihat tampilan web yang sudah dibuat
 
 ---------------------------------Update---------------------------------------------------  
-Requirements
-Python 3.7.2
-MySQL Server 8
-Bootstrap version 2.3.2
-Flask Framework ( Sudah Include di PyCharm IDE )
-library tambahan pada flask
+Requirements  
+Python 3.7.2  
+MySQL Server 8  
+Bootstrap version 2.3.2  
+Flask Framework ( Sudah Include di PyCharm IDE )  
+library tambahan pada flask  
 -pymysql
-cara install libnya adalah dengan mengetikkan 'pip install pymsql' pada terminal PyCharm IDE
+cara install libnya adalah dengan mengetikkan 'pip install pymsql' pada terminal PyCharm IDE  
 
 Untuk menjalankan project no 7 yaitu sebagai berikut:
 1. Buka IDE PyCharm
