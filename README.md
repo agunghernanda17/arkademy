@@ -20,7 +20,7 @@ pengerjaan soal 7 menggunakan IDE PyCharm dengan memanfaatkan framework flask
 6. Jika muncul status running at 127.0.0.1:5000, maka web berhasil dijalankan
 7. selanjutnya buka browser dan ketikkan 127.0.0.1:5000 pada address bar untuk melihat tampilan web yang sudah dibuat
 
----------------------------------Update---------------------------------------------------
+---------------------------------Update---------------------------------------------------  
 Requirements
 Python 3.7.2
 MySQL Server 8
