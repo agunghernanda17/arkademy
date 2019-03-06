@@ -39,7 +39,7 @@ Untuk menjalankan project no 7 yaitu sebagai berikut:
 6. Tunggu proses pembuatan workspace selesai
 7. Selanjutnya Masuk ke direktory workspace project dengan cara mengklik folder sesuai nama project
 8. Paste dan replace seluruh isi folder soal7 di github ini pada direktory workspace yang sudah dibuat sebelumnya
-9. kemudian ketik 'python -m flask run' untuk menjalankan project pada localhost dengan ip 127.0.0.1:5000 
+9. kemudian ketik 'python -m flask run' di terminal IDE PyCharm untuk menjalankan project pada localhost dengan ip 127.0.0.1:5000 
    (5000 merupakan port default flask)
 10. jika muncul error 'could not locate a flask application' maka ketikkan 'set FLASK_APP=app.py' pada terminal Pycharm untuk mengeset       environment, kemudian ketik ulang 'python -m flask run' pada terminal
 11. Jika muncul status running at 127.0.0.1:5000, maka web berhasil dijalankan
